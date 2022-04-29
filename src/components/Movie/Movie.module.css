@@ -1,0 +1,21 @@
+
+.movie_detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+  background-color: rgb(194,218,227);
+  color: rgb(6,4,101);
+  padding: 30px;
+}
+
+.texto{
+  width: 50%;
+  text-align: justify;
+}
+
+.list_group{
+  width: auto;
+  text-align: justify;
+  color: rgb(6,4,101);
+}
