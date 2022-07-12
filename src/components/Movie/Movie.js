@@ -17,11 +17,11 @@ class Movie extends React.Component {
           <p className={S.texto}>{movie.Plot}</p>
           <ul className={S.list_group}>
             <li> <b>Director</b>{` : ${movie.Director}`}</li>
-            <li><b>Escritor</b>{` : ${movie.Writer} `} </li>
-            <li><b>Fecha De Estreno</b>{` : ${movie.Released}`} </li>
-            <li><b>Genero</b>{` : ${movie.Genre} `} </li>
-            <li><b>Duracion</b>{` : ${movie.Runtime} `} </li>
-            <li><b>Clasificacion</b>{` : ${movie.Rated} `} </li>
+            <li><b>Writer</b>{` : ${movie.Writer} `} </li>
+            <li><b>Release date</b>{` : ${movie.Released}`} </li>
+            <li><b>Gender</b>{` : ${movie.Genre} `} </li>
+            <li><b>Duration</b>{` : ${movie.Runtime} `} </li>
+            <li><b>Classification</b>{` : ${movie.Rated} `} </li>
           </ul>
           <img src={movie.Poster} alt="poster" />
         </div>

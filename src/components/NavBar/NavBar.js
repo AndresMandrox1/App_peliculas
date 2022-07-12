@@ -22,9 +22,9 @@ export default function NavBar() {
         <ul className={S.list}>
           <li className={S.list_item}>
             <NavLink exact to="/">
-              Inicio
+              Home
             </NavLink>
-            <NavLink to="/favs">Favoritas</NavLink>
+            <NavLink to="/favs">Favorites</NavLink>
           </li>
         </ul>
       </nav>

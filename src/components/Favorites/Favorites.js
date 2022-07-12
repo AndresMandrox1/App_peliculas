@@ -8,7 +8,7 @@ export class ConnectedList extends Component {
   render() {
     return (
       <div>
-        <h2>Películas Favoritas</h2>
+        <h2>My Favorite Movies</h2>
         <ul>
           {/* Aqui deberias poner tu lista de peliculas! */}
           {this.props.movies?.map((e) => (
@@ -18,7 +18,7 @@ export class ConnectedList extends Component {
                   <li>{e.Title}</li>
                 </Link>
               </div>
-                <button className={S.btnA} onClick={()=> this.props.removeMovieFavorite(e.imdbID)}>Quitar</button>
+                <button className={S.btnA} onClick={()=> this.props.removeMovieFavorite(e.imdbID)}>Remove</button>
             </div>
           ))}
         </ul>
